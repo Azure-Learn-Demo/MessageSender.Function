@@ -1,11 +1,4 @@
 # Starter pipeline
-- task: AzureFunctionApp@1
-  inputs:
-    azureSubscription: 'Free Trial (44ce128a-500b-49c7-969e-04c4fa3b4972)'
-    appType: 'functionApp'
-    appName: 'DemoHemanta'
-    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
-    deploymentMethod: 'auto'
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
